@@ -5,22 +5,52 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Asap, sans-serif;
+    background-color: rgb(207, 196, 196);
 }
 
 header {
-    padding: 20;
-    margin: 20;
+    padding: 5px;
+    margin: 20px;
     border: #F373C6;
-    border-radius: 20;
+    border-radius: 10px;
     background-color: #2dae9a;
     text-align: center;
     font-size: 25;
-    font-weight: bold;
+    font-weight: bold;  
 }
 
+.buttons {
+    margin: 20px;
+    border: 5px solid blueviolet ;
+    border-radius: 5px;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+}
 
-h1 {
+#gb {
+    background-color: bisque;
+    text-align: center;
+    outline-color: white;
+    margin: 20px;
+    size: 100px;
+    border-color: black;
+    border-radius: 7px;
+    height: 30px;
 
+}
+#gt {
+    background-color: bisque;
+    text-align: center;
+    outline-color: white;
+    margin: 20px;
+    size: 100px;
+    border-color: black;
+    border-radius: 7px;
+    height: 30px;
 }
 
 
